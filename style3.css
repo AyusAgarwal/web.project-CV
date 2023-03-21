@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    /* background-color: red; */
+    /* width: 20vw; */
+    /* height: 100px; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: cursive;
+    background-color: rgb(223, 216, 216);
+    transition: transform 0.3s ease-in;
+}
+.nav li{
+    margin: 22px 30px;
+    padding: 20px 20px;
+    list-style: none;
+}
+.navgo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.nav li a:hover{
+    color: rgb(197, 24, 24);
+}
+.brief{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* position: sticky; */
+    /* text-align: center; */
+    align-items: center;
+    justify-content: space-around;
+    margin: 125px 150px;
+    /* margin: 0; */
+}
+
+.intro{
+    display: flex;
+    
+}
+/* .intro nav{
+    margin: 0;
+} */
+.hi{
+    /* font-weight: 10; */
+    font-size: xx-large;
+    font-family: 'Allura', cursive;
+}
+.Name{
+    font-weight: 1000;
+    font-size: xx-large;
+    font-family: 'Allura', cursive;
+}
+.skills{
+    /* font-weight: 1000; */
+    font-size: xx-large;
+    font-family: 'Allura', cursive;
+}
+.Hobbies{
+    /* font-weight: 1000; */
+    font-size: xx-large;
+    font-family: 'Allura', cursive;
+}
+.image{
+    height: 5vh;
+    width: 5vw;
+}
+#CV button{
+    margin: 15px 14px;
+    padding: 2px 5px;
+    color: blue;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#CV :hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#ContactME button{
+    margin: 15px 14px;
+    padding: 2px 5px;
+    color: blue;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#ContactME :hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.contactform{
+    padding: 75px 50px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+.contactform h1{
+    margin: 30px 0;
+    font-family: cursive;
+}
+.forme{
+    padding: 20px 50px;
+    margin: 50px 20px;
+    /* width: 90px; */
+}
+
+.form-label{
+    padding: 20px 50px;
+    margin: 50px 20px;
+}
+.form-text{
+    padding: 20px 50px;
+    margin: 30px 0;
+}
+.check{
+    padding: 100px 10px;
+    margin: 100px 10px;
+}
+.btn {
+    padding: 10px 10px;
+    margin: 20px 200px;
+    color: blue;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+}
+
+.btn:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.blog-content h1{
+    margin: 15px 18px;
+    font-family: 'Allura', cursive;
+}
+
+.blog-content{
+    background-color: rgb(230, 218, 218);
+}
+.main{
+    margin: 15px 18px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.lorm{
+    margin: 15px 18px;
+    font-family: cursive;
+}
+.btnn{
+    margin: 15px 18px;
+    color: blue;
+    /* border: 2px solid black;  */
+    /* border-radius: 8px;
+    /* width: 2px; */
+}
+.introduction{
+    margin: 10px 12px;
+    padding: 12px 10px;
+    font-family: cursive;
+    background-color: rgb(156, 159, 170);
+}
+.detials{
+    margin: 6px 0px;
+}
+
+.aptitude{
+    margin: 20px 0px;
+}
+.skill1{
+    width:230px;
+    height: 13px;
+    background-color: pink;
+}
+.skill2{
+    width:530px;
+    height: 13px;
+    background-color: pink;
+}
+.skill3{
+    width:290px;
+    height: 13px;
+    background-color: pink;
+}
+.skill4{
+    width:400px;
+    height: 13px;
+    background-color: pink;
+}
+.hamburger img{
+    width: 22px;
+    height: 15px;
+    
+}
+.hamburger{
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+}
+.cross{
+    margin-left: 103px;
+}
